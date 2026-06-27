@@ -1,6 +1,26 @@
+# CUDA / nvcc intermediate artifacts
 *.i
 *.ii
 *.gpu
 *.ptx
 *.cubin
 *.fatbin
+
+# Compiled extension / JIT build output
+*.o
+*.so
+knn_cuda/csrc/_ext/
+
+# Python build / packaging
+build/
+dist/
+*.egg-info/
+__pycache__/
+*.pyc
+
+# Editor / OS
+.DS_Store
+*.swp
+
+# Windows "downloaded from internet" markers
+*Zone.Identifier
